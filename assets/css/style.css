@@ -1,0 +1,28 @@
+.firstLandscape{
+    background-image: url(../img/Nature-Paysage-portfolio-17-novembre-2019-0017-3.jpg);
+    background-size: cover;
+    height:50vh;
+}
+
+.secondLandscape{
+    background-image: url(../img/photo-paysage-urbain-pont-nuit.jpg);
+    background-size: cover;
+    height:50vh;
+}
+
+.thirdLandscape{
+    background-image: url(../img/photo-paysage.jpg);
+    background-size: cover;
+    height:50vh;
+}
+
+.myPicture{
+    background-image: url(../img/20211009_183200.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}
+
+.lolo{
+    color: #fff;
+}
