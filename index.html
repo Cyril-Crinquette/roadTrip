@@ -5,92 +5,97 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Le framework Bootstrap</title>
 </head>
 <body>
     <!-- Header pour le haut de page -->
     <header class="container-fluid">
         <div class="row">
-            <div class="col-12 bg-primary text-center">
-                <h1>Ma première page Bootstrap </h1> 
-                <p>Les articles de cette page s'affichent différemment en fonction de la taille d'écran, ce qui permet une expèrience utilisateur optimale!</p>
+            <div class="col-12 text-center">
+                <h1>Mon voyage en Ecosse</h1> 
+                <p>Un aperçu de mon fabuleux road trip de 2020 qui m'a permis de me familiariser avec mon nouvel appareil photo</p>
             </div>
         </div>
         <div class="row">
             <!-- Nav pour la barre de navigation -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-                <div class="container-fluid">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active " aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link gray-100" href="#">Disabled</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#nouvelles">Nouvelles</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
     </header>
     <!-- Main pour le contenu principal -->
     <main class="container">
         <div class="row">
-            <div class="col-12 col-md-4 bg-success">
+            <div class="col-12 col-md-4 ">
                 <div class="text-center">
-                    <h2>A propos de moi</h2> <h5>Ma photo</h5>
+                    <h2>A propos de moi</h2>
                 </div>
                 <div class="myPicture"></div>
+                <em>Photographe depuis 2014, j'ai aujourd'hui 31 ans et m'évertue à parcourir le monde en quête de paysage à immortaliser.</em>
                 <div class="text-center">
-                    <h2>Quelques liens</h2>
+                    <h2>Mes réseaux sociaux</h2>
                 </div>
                 <div>
-                    <h5>Instragram</h5>
+                    <h5>Instagram</h5>
                     <h5>Linkedin</h5>
                     <h5>Facebook</h5>
                 </div>
             </div>
-            <div class="col-12 col-md-8 bg-primary">
+            <div class="col-12 col-md-8 ">
                 <div>
                     <h2>Le plus beau des couchers de soleil</h2>
-                    <h5>Photo de mon 1er séjour en Amérique, 18 sept. 2020</h5>
+                    <h5>Aperçu de l'horizon sur le pont de Stevenage, 18 sept. 2020</h5>
                     <div class="firstLandscape">
                     </div>
-                    <p>Il s'agit d'un magnifique et incroyable paragraphe écrit par mes soins. En effet, bien que je sois censé travailler sur la maquette de mon CV numérique, mon plaisir est infiniment + grand lorsque je m'arrache les cheveux pour comprendre pourquoi les images que je cherche à intégrer dépassent du cadre. Pour tout vous avouer, ce genre de moments me font me sentir seul au monde et me demander si je suis réellement capable de devenir un développeur web un jour.</p>
+                    <p> D'ici on croirait apercevoir le paradis et c'est bel et bien le ressenti que j'ai eu au moment de prendre la photo.
+                        <br> Pour autant, je n'étais pas au bout de mes surprises et j'ai pu, grâce aux personnes qui m'ont tendues la main, nager jusqu'au château des aristocrates.
+                        <br> Vous me croiriez si je vous disais que j'y ai finalement passé la nuit après avoir sympathisé avec les propriétaires de l'habitation?
+                    </p>
                 </div>
                 <div>
                     <h2>Un pont qui en jette!</h2>
-                    <h5>Petite pause photo, 21 sept. 2020</h5>
+                    <h5>Apéro en bord de plage, 21 sept. 2020</h5>
                     <div class="secondLandscape">
                         
                     </div>
-                    <p>Il s'agit d'un magnifique et incroyable paragraphe écrit par mes soins. En effet, bien que je sois censé travailler sur la maquette de mon CV numérique, mon plaisir est infiniment + grand lorsque je m'arrache les cheveux pour comprendre pourquoi les images que je cherche à intégrer dépassent du cadre. Pour tout vous avouer, ce genre de moments me font me sentir seul au monde et me demander si je suis réellement capable de devenir un développeur web un jour.</p>
+                    <p>Ce soir là, l'air était particulièrement doux et, pour un 21 Septembre, il ne faisait absolument pas froid.
+                    <br> Je décidai donc de prévoir un petit pique-nique près du pont de Starlook.
+                    <br>
+                    L'ambiance était tout à fait propice à la méditation, et après m'être recueilli, j'ai ouvert une petite bouteille de blanc.
+                    <br> J'ai passé toute la soirée et une partie de la nuit sur cette plage, seul, en lisant livre que j'avais pour ambition de continuer depuis si longtemps: "Cloud Atlas".
+                    </p>
                 </div>
                 <div>
                     <h2>Le brouillard d'Ecosse</h2>
-                    <h5>Photo de la vue avant qu'elle ne soit effacée par le brouillard, 12 juil. 2021</h5>
+                    <h5>Photo de la vue avant qu'elle ne soit effacée par le brouillard, 22 sept. 2020</h5>
                     <div class="thirdLandscape">
                         
                     </div>
-                    <p>Il s'agit d'un magnifique et incroyable paragraphe écrit par mes soins. En effet, bien que je sois censé travailler sur la maquette de mon CV numérique, mon plaisir est infiniment + grand lorsque je m'arrache les cheveux pour comprendre pourquoi les images que je cherche à intégrer dépassent du cadre. Pour tout vous avouer, ce genre de moments me font me sentir seul au monde et me demander si je suis réellement capable de devenir un développeur web un jour.</p>
+                    <p>J'avoue être particulièrement fier de cette prise.
+                        Le nuage de cotons qui se dépose lentement sur les rochers, c'est quelque chose d'absolument splendide.
+                    <br> Je me rappelle avoir continué à marcher jusqu'au phare qu'on aperçoit au loin, je ne pouvais plus voir mes pieds, et le brouillard m'arrivait presque aux hanches.
+                    <br> Pour autant, je me sentais transporté et n'aurais voulu être ailleurs pour rien au monde.
+                    <br> Ca peut paraître étrange, mais ce jour là, je me suis senti comme Moîse marchant sur l'eau.
+                    </p>
                 </div>
             </div>
         </div>
     </main>
     <!-- Footer pour le bas de page -->
     <footer>
-                <nav class="navbar navbar-dark bg-dark">
-                    <!-- Navbar content -->Lalala
-                </nav>
-        
+        <div>
+            <p> Inscription à notre newsletter</p>
+        </div>
+        <div>
+            <input placeholder="name@exemple.com" type="text">
+        </div>
+        <div class="mentions">
+            <p>Mentions Légales</p>
+            <p>Site by La Manu</p>
+        </div>
     </footer>
 
 
